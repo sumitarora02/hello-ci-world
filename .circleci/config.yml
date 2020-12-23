@@ -34,7 +34,6 @@ jobs:
       - image: circleci/node:13.8.0
     steps:
       - run: echo ${username}
-      - run: return 1
       - run: 
           name: on error
           command: echo "Hello Error!!"
